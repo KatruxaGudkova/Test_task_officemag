@@ -1,0 +1,49 @@
+/* Black Page Component */
+        .blackpage-component {
+          background: white;
+          padding: 2rem;
+          border-radius: 0.5rem;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .blackpage-component h2 {
+          margin-bottom: 2rem;
+        }
+        
+        .blackpage-content {
+          padding: 2rem;
+          background: #1f2937;
+          color: white;
+          border-radius: 0.5rem;
+        }
+        
+        .blackpage-header h1 {
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+          color: #10b981;
+        }
+        
+        .blackpage-subtitle {
+          font-size: 1.25rem;
+          margin-bottom: 2rem;
+          color: #9ca3af;
+        }
+        
+        .fix-list {
+          list-style: none;
+          padding: 0;
+        }
+        
+        .fix-list li {
+          padding: 0.75rem 0;
+          border-bottom: 1px solid #374151;
+          font-size: 1.1rem;
+        }
+        
+        .fix-list li:last-child {
+          border-bottom: none;
+        }
+        
+        .check {
+          margin-right: 0.75rem;
+        }

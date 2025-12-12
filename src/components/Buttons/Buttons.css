@@ -1,0 +1,106 @@
+/* Buttons Component */
+        .buttons-component {
+          background: white;
+          padding: 2rem;
+          border-radius: 0.5rem;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .buttons-component h2 {
+          margin-bottom: 2rem;
+        }
+        
+        .button-row {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 1rem;
+          flex-wrap: wrap;
+        }
+        
+        .button-row--icons {
+          margin-top: 2rem;
+        }
+        
+        .btn {
+          padding: 0.6rem 1.2rem;
+          border: 2px solid transparent;
+          border-radius: 0.375rem;
+          cursor: pointer;
+          font-size: 0.95rem;
+          transition: all 0.2s;
+          white-space: nowrap;
+        }
+        
+        .btn--default {
+          background: #f3f4f6;
+          border-color: #d1d5db;
+          color: #374151;
+        }
+        
+        .btn--default:hover {
+          background: #e5e7eb;
+        }
+        
+        .btn--outlined {
+          background: white;
+          border-color: #ef4444;
+          color: #ef4444;
+        }
+        
+        .btn--outlined:hover {
+          background: #fef2f2;
+        }
+        
+        .btn--red {
+          background: #ef4444;
+          color: white;
+        }
+        
+        .btn--red:hover {
+          background: #dc2626;
+        }
+        
+        .btn--arrow {
+          background: #f3f4f6;
+          border-color: #d1d5db;
+          color: #374151;
+        }
+        
+        .btn--arrow:hover {
+          background: #e5e7eb;
+        }
+        
+        .btn--green {
+          background: #65a30d;
+          color: white;
+        }
+        
+        .btn--green:hover {
+          background: #4d7c0f;
+        }
+        
+        .btn--green-outlined {
+          background: white;
+          border-color: #84cc16;
+          color: #65a30d;
+        }
+        
+        .btn--green-outlined:hover {
+          background: #f7fee7;
+        }
+        
+        .btn--icon {
+          background: white;
+          border-color: #d1d5db;
+          color: #374151;
+        }
+        
+        .btn--icon:hover {
+          background: #f9fafb;
+        }
+        
+        .btn:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
+        

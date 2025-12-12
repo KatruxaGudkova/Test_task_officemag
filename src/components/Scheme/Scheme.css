@@ -1,0 +1,20 @@
+        
+        /* Scheme Component */
+        .scheme-component {
+          background: white;
+          padding: 2rem;
+          border-radius: 0.5rem;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .scheme-title {
+          margin-bottom: 2rem;
+          font-size: 1.75rem;
+        }
+        
+        .scheme-svg {
+          width: 100%;
+          height: auto;
+          background: #f9fafb;
+          border-radius: 0.5rem;
+        }
